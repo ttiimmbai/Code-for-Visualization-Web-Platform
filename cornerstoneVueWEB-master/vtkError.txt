@@ -1,0 +1,44 @@
+ERROR: In d:\vtkjava\vtk-7.1.1\common\core\vtkGenericDataArray.txx, line 442
+vtkFloatArray (000000008DFA2110): Unable to allocate 2721795 elements of size 4 bytes. 
+
+
+ERROR: In d:\vtkjava\vtk-7.1.1\common\core\vtkGenericDataArray.txx, line 394
+vtkShortArray (00000000B1120A90): Unable to allocate 34865152 elements of size 2 bytes. 
+
+
+ERROR: In d:\vtkjava\vtk-7.1.1\common\core\vtkGenericDataArray.txx, line 442
+vtkIdTypeArray (00000000F3693680): Unable to allocate 14516255 elements of size 8 bytes. 
+
+
+ERROR: In d:\vtkjava\vtk-7.1.1\common\core\vtkGenericDataArray.txx, line 394
+vtkFloatArray (0000000080E8BC10): Unable to allocate 1360896 elements of size 4 bytes. 
+
+
+ERROR: In d:\vtkjava\vtk-7.1.1\common\core\vtkGenericDataArray.txx, line 442
+vtkIdTypeArray (00000000737D2480): Unable to allocate 7258126 elements of size 8 bytes. 
+
+
+ERROR: In d:\vtkjava\vtk-7.1.1\common\core\vtkGenericDataArray.txx, line 394
+vtkFloatArray (000000008DFA2570): Unable to allocate 1360896 elements of size 4 bytes. 
+
+
+ERROR: In d:\vtkjava\vtk-7.1.1\common\core\vtkGenericDataArray.txx, line 442
+vtkIdTypeArray (000000004C65DE40): Unable to allocate 3629061 elements of size 8 bytes. 
+
+
+ERROR: In d:\vtkjava\vtk-7.1.1\common\core\vtkGenericDataArray.txx, line 442
+vtkFloatArray (0000000193200920): Unable to allocate 5443593 elements of size 4 bytes. 
+
+
+ERROR: In d:\vtkjava\vtk-7.1.1\common\core\vtkGenericDataArray.txx, line 394
+vtkFloatArray (0000000080E8BA50): Unable to allocate 1360896 elements of size 4 bytes. 
+
+
+ERROR: In d:\vtkjava\vtk-7.1.1\common\core\vtkGenericDataArray.txx, line 394
+vtkShortArray (0000000080492DD0): Unable to allocate 34865152 elements of size 2 bytes. 
+
+
+ERROR: In d:\vtkjava\vtk-7.1.1\common\core\vtkGenericDataArray.txx, line 394
+vtkShortArray (0000000080F4B7C0): Unable to allocate 34865152 elements of size 2 bytes. 
+
+

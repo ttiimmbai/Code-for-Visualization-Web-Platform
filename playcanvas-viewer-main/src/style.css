@@ -1,0 +1,319 @@
+html {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0px;
+    height: 100%;
+    max-height: 100%;
+}
+
+#flex-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: stretch;
+}
+
+#app {
+    height: 100%;
+}
+
+#wrapper {
+    width: 300px;
+    height: 100%;
+    background-color: #000000;
+}
+
+#panel {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    position: relative;
+}
+
+#wrapper.collapsed {
+    width: 32px !important;
+    overflow: hidden;
+    overflow-y: hidden !important;
+}
+
+#panel-toggle {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    padding: 0;
+    cursor: pointer;
+}
+
+#panel-toggle::before {
+    font-family: 'pc-icon';
+    content: '\E183';
+    font-weight: 200;
+    font-size: 14px;
+    margin-right: 10px;
+    text-align: center;
+    color: #5ca3c5;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+
+#panel-toggle:hover::before {
+    color: white;
+}
+
+#wrapper.collapsed #panel-toggle::before {
+    transform: translateY(-50%) translateX(-50%) rotateZ(90deg);
+}
+
+#canvas-wrapper {
+    position: relative;
+    width: 0 !important;
+    flex-grow: 1;
+    display: flex;
+}
+
+#application-canvas {
+    width: 0 !important;
+    flex-grow: 1;
+    height: 500px;
+}
+
+h3 {
+    margin: 0px;
+    padding: 5px;
+    font-size: 9pt;
+    color: #fff;
+    background-color: #293538;
+}
+
+label {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 10pt;
+    color: #bbb;
+    width: 60px;
+}
+
+button {
+    width: 100%;
+    text-align: left;
+}
+
+ul {
+    list-style-type: none;
+    list-style-position: inside;
+    margin: 0px;
+    padding: 0px;
+}
+
+input {
+    font-size: 10pt;
+    width: 170px;
+    margin: 0px;
+    vertical-align: middle;
+    background-color: 293538;
+}
+
+.header {
+    display: block !important;
+    margin: 0px;
+    height: 32px;
+    line-height: 32px;
+}
+
+.header img {
+    width: 32px;
+    height: 32px;
+}
+
+.header div {
+    color: #fff;
+    display: inline-block;
+    vertical-align: top;
+    line-height: 32px;
+    padding: 0px 0px 0px 8px;
+}
+
+.header span {
+    color: #b1b8ba;;
+}
+
+.pcui-infobox {
+    border-radius: 8px;
+    font-size: 16px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+#load-controls .pcui-container {
+    position: absolute;
+}
+
+.load-button-panel {
+    width: 320;
+    width: 320;
+    background-color: #475457;
+    padding: 16px 16px 16px 16px;
+    border-radius: 8px;
+    font-size: 16px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.centered-label {
+    text-align: center;
+}
+
+.load-button-panel.hide {
+    display: none !important;
+}
+
+.initial-cta.no-cta {
+    display: none !important;
+}
+
+.pcui-infobox.pcui-error :first-child {
+    color: red;
+}
+
+.pcui-infobox.pcui-error:before {
+    color: red;
+}
+
+.controls {
+    margin: 0px;
+    padding: 10px 4px;
+    background-color: #374346;
+}
+
+.controls div {
+    margin: 3px 0px;
+}
+
+#scrub-container {
+    text-align: center;
+    margin: 2px 0px 10px 0px;
+}
+
+#scrub-container input {
+    width: 40px;
+}
+
+.panel-option {
+    display: flex;
+    align-items: center;
+}
+
+.panel-option > .pcui-label {
+    min-width: 30%;
+    font-size: 14px;
+}
+
+.panel-option > .pcui-select-input {
+    flex-grow: 1;
+}
+
+.panel-option > .pcui-slider {
+    flex-grow: 1;
+}
+
+.panel-option > .pcui-vector-input {
+    margin-right: 6px;
+    flex-grow: 1;
+}
+
+.animation-buttons {
+    display: flex;
+}
+
+.animation-list-container {
+    display: flex;
+    flex-direction: column;
+    margin-right: 12px;
+}
+
+.morph-target-panel {
+    margin: 6px;
+    border: 1px solid #232e30 !important;
+}
+
+.morph-target-label {
+    min-width: 24% !important;
+}
+
+@keyframes animation-spin {
+    from {
+        transform: rotate(0deg);
+    } to {
+        transform: rotate(360deg);
+    }
+}
+
+.pcui-spinner {
+    position: absolute;
+    margin: 0;
+    left: calc(50% - 15px);
+    top: calc(50% - 15px);
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #20292b;
+}
+::-webkit-scrollbar-thumb {
+    background: #5b7073;
+}
+/* ::-webkit-scrollbar-corner {
+    background: $editor-tooltip-bg;
+} */
+
+.modelHierarchyPanel > .pcui-panel-content {
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.modelHierarchyPanel, .modelSelectedNodePanel {
+    margin: 6px;
+    border: 1px solid rgb(41, 53, 56);
+}
+
+.modelSelectedNodePanel > .pcui-panel-content {
+    padding-right: 6px;
+}
+
+.modelHierarchyPanel .pcui-treeview-item-text {
+    font-size: 14px;
+}
+
+#wrapper.collapsed #controls, #wrapper.collapsed .header {
+    display: none !important;
+}

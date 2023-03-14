@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+    	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+    	<!-- iOS meta tags -->
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+    	<meta name="apple-mobile-web-app-capable" content="yes">
+    	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    	<link rel="stylesheet" type="text/css" href="papaya.css?build=1455" />
+    	<script type="text/javascript" src="papaya.js?build=1455"></script>
+      <script src="../test_script/js/jquery-1.11.3.min.js"></script>
+    	<title>MPR Viewer</title>
+
+    	<script type="text/javascript">
+        var getParam = function () {
+          try{
+            var url = window.location.href;
+            var result = url.split("?")[1];
+            var keyValue = result.split("&");
+            var obj = {};
+            for (var i = 0; i < keyValue.length; i++) {
+              var item = keyValue[i].split("=");
+              obj[item[0]] = item[1];
+            }
+            return obj;
+          }catch(e){
+            console.warn("There has no param value!");
+          }
+        };
+        //图像的URL
+        var imageUrl = getParam()['url'].replace(/@/g,"\\");
+        var id=getParam()['id'];
+        console.log("imgurl是。。。。。"+imageUrl)
+        var checkId= getParam()['checkNum'];
+
+
+        var imageIdlist;
+
+
+        $.ajax({
+          async:false,
+          cache:true,
+          traditional:true,//
+          type: 'post',
+          dataType: 'json',
+          url: 'http://localhost:9091/get/sendDcm2',
+          /*data: {xy:JSON.stringify(xy)},*/
+          data : {
+            id:id
+          },
+          // beforeSend:function(){
+          //   var openId=$.openLoadForm();
+          // },
+          // complete:function(){
+          //   $.closeLoadForm();
+          // },
+          success: function (data) {
+            imageIdlist = data;
+            if(imageIdlist.length<1){
+              alert("图像路径不存在");
+            }
+
+          },
+          error: function(){
+            alert("加载图像失败");
+          }
+        });
+		  var params = [];
+		  params["images"]=imageIdlist
+		  </script>
+
+	</head>
+
+	<body>
+
+		<div class="papaya" data-params="params">
+
+    </div>
+
+
+	</body>
+</html>

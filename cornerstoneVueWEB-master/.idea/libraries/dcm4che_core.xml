@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="dcm4che-core">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../vtkjava/dcm4che/dcm4che-core" />
+      <root url="file://$PROJECT_DIR$/../../../vtkjava/dcm4che/dcm4che-dict" />
+      <root url="file://$PROJECT_DIR$/../../../vtkjava/dcm4che/dcm4che-image" />
+      <root url="file://$PROJECT_DIR$/../../../vtkjava/dcm4che/dcm4che-imageio" />
+      <root url="file://$PROJECT_DIR$/../../../vtkjava/dcm4che/dcm4che-parent" />
+      <root url="file://$PROJECT_DIR$/../../../vtkjava/dcm4che/tool" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../vtkjava/dcm4che/dcm4che-core" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../vtkjava/dcm4che/dcm4che-dict" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../vtkjava/dcm4che/dcm4che-image" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../vtkjava/dcm4che/dcm4che-imageio" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../vtkjava/dcm4che/dcm4che-parent" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../vtkjava/dcm4che/tool" recursive="false" />
+  </library>
+</component>

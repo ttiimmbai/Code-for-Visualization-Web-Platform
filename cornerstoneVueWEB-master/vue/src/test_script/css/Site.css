@@ -1,0 +1,123 @@
+html {
+   overflow: auto;
+   -ms-touch-action: none;
+   /*新加的*/
+   width:100%;
+   height:100%;
+}
+
+body {
+   background: white;
+   overflow: auto;
+   color: #4D5F82;
+   height: 100%;
+   margin: 0;
+   -webkit-user-select: text;
+   -webkit-text-size-adjust: none;
+   font-family: helvetica;
+   font-size: 10pt;
+}
+
+#content {
+   color: #fff;
+   overflow: auto;
+   position: fixed;
+   display: block;
+   left: 0px;
+   right: 0px;
+   top: 43px;
+   bottom: 0px;
+}
+
+#mainContainer {
+   color: #fff;
+   width: 100%;
+   height: 100%;
+   margin: 0px auto;
+   background: #d3d3d3;
+}
+
+#imageViewerDiv {
+   position: relative;
+   overflow: auto;
+   width: 100%;
+   height: 100%;
+}
+
+button {
+   background-color: #b0e3ea !important;
+   border: #E8E8E8 !important;
+   color: #4D5F82 !important;
+}
+
+
+.viewportContainer.active{
+   border: 1px solid #00a4d9;
+}
+.active1{
+   border: 1px solid #ba3c45;
+   background-color: #b0e3ea !important;
+}
+.viewportContainer{
+   border: 1px solid #3c5d80;
+}
+
+
+/*下边是关于按钮拉框按钮的样式*/
+.in_tab_box{border:1px solid #ccc;box-shadow:1px 1px 5px #ddd;background:#fff;padding:5px;display:none;position:absolute}
+.itb_con{width:100%;height:100%;overflow:hidden;font-size:18px;position:relative;-webkit-transition:all .1s linear;-moz-transition:all .1s linear}
+.itb_picker_unlight{background:url(src/test_script/images/veryhuo-unhighlighted.png) repeat}
+.itb_picker_unlight,.itb_picker_light{position:absolute;top:0;left:0;-webkit-transition:all .1s linear;-moz-transition:all .1s linear}
+.itb_picker_light{background:url(src/test_script/images/veryhuo-highlighted.png) repeat}
+.itb_picker_status{text-align:center;color:#333;font:10pt/1.7 arial}
+
+/*这是箭头标注按钮的样式*/
+
+/* prevents selection when left click dragging */
+.disable-selection {
+   -moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;
+}
+/* prevents cursor from changing to the i bar on the overlays*/
+.noIbar {
+   cursor:default;
+}
+.annotationDialog, .relabelDialog {
+   z-index: 1000;
+   position: absolute;
+   margin: 0px;
+   left: 40%;
+   top: 40%;
+   width: 300px;
+   border: 1px black solid;
+   border-radius: 5px;
+}
+.annotationTextInputOptions {
+   padding: 5px 0px;
+}
+.annotationTextInput {
+   margin-left: 5px;
+}
+.annotationDialogConfirm {
+   float: right;
+}
+
+/*以下放大镜样式*/
+/* These are some good CSS settings for a circular magnifying glass
+           Try removing the border-radius to make a square magnifying glass */
+.magnifyTool{
+   border: 4px white solid;
+   box-shadow: 2px 2px 10px #1e1e1e;
+   border-radius: 50%;
+   display: none;
+   cursor: none;
+   z-index: 100;
+}
+/* prevents selection when left click dragging */
+.disable-selection {
+   -moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;
+}
+/* prevents cursor from changing to the i bar on the overlays*/
+.noIbar {
+   cursor:default;
+}
+/*以上放大镜样式*/

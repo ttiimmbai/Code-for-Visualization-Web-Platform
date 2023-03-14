@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.mapper.DicomListMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.example.demo.entity.DicomList">
+        <id column="id" property="id" />
+        <result column="patientname" property="patientname" />
+        <result column="description" property="description" />
+        <result column="gmt_date" property="gmtDate" />
+        <result column="gmt_modified" property="gmtModified" />
+        <result column="seriesnum" property="seriesnum" />
+        <result column="devtype" property="devtype" />
+        <result column="patientid" property="patientid" />
+        <result column="hosid" property="hosid" />
+        <result column="position" property="position" />
+    </resultMap>
+
+</mapper>

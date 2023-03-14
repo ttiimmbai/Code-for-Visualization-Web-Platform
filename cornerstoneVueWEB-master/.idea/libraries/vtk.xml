@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="vtk">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/processingserver/src/main/resources/lib/vtk.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/processingserver/src/main/resources/lib/vtk.jar!/" />
+    </SOURCES>
+  </library>
+</component>

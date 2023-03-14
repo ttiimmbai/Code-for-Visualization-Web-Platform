@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>My first three.js app</title>
+  <style>
+    body { margin: 0; }
+  </style>
+</head>
+<body>
+<script src="../test_script/js/three.js"></script>
+<script>
+  const scene = new THREE.Scene();
+  const camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
+
+  const renderer = new THREE.WebGLRenderer();
+  renderer.setSize( window.innerWidth, window.innerHeight );
+  document.body.appendChild( renderer.domElement );
+init()
+function init () {
+  var loader = new THREE.GLTFLoader();
+  var textureCube = new THREE.CubeTextureLoader()
+  // 设置Draco解码库 解压路径，该路径就是解压文件所在的位置
+  THREE.DRACOLoader.setDecoderPath('static/');
+  // 设置gltfloader解压loader
+  loader.setDRACOLoader(new THREE.DRACOLoader());
+  // 加载模型
+  loader.load('static/polywrite2Draco.gltf', (obj) => {
+    var mesh = obj.scene
+    mesh.traverse(function(gltf) { // 为模型添加环境贴图反光效果
+      if (gltf.isMesh) {
+        gltf.material.envMap = textureCube
+      }
+    })
+    mesh.scale.set(0.06, 0.06, 0.06) // 模型大小缩放
+    //  场景中添加模型文件
+    this.scene.add(mesh)
+  })
+
+}
+</script>
+</body>
+</html>

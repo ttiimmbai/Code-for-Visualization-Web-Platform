@@ -1,0 +1,726 @@
+.icon {
+   position: relative;
+   display: inline-block;
+   background-repeat: no-repeat;
+   background-position: center;
+  /* width: 35px;
+   height: 25px;
+   top: 3px;*/
+   width: 30px;
+   height: 25px;
+   top: 1px;
+}
+
+.icon-md {
+   width: 24px;
+   height: 24px;
+   background-size: 16px 16px;
+}
+
+.icon-sm {
+   width: 16px;
+   height: 16px;
+   background-size: 16px 16px;
+}
+
+.icon-xs {
+   margin: 0 auto;
+   top: 50%;
+   width: 10px;
+   height: 10px;
+}
+
+.duplicateIcon {
+   background-image: url(src/test_script/images/Icons/MultiPagesExportText.png);
+}
+
+.openIcon {
+   background-image: url(src/test_script/images/Icons/Open.png);
+}
+
+.openUrlIcon {
+   background-image: url(../images/Icons/OpenUrl.png);
+}
+
+.server {
+   background-image: url(../images/Icons/Server.png);
+}
+
+.openAnnotationIcon {
+   background-image: url(src/test_script/images/Icons/OpenAnnotation.png);
+}
+
+.loadBatesStampIcon {
+   background-image: url(src/test_script/images/Icons/LoadBates.png);
+}
+.listCheckIcon{
+   background-image: url(src/test_script/images/Icons/ListCheck.png);
+}
+
+.saveIcon {
+   background-image: url(src/test_script/images/Icons/Save.png);
+}
+
+.saveXMLIcon {
+   background-image: url(src/test_script/images/Icons/SaveXML.png);
+}
+.arrowIcom{
+   background-image: url(src/test_script/images/Icons/arrow.png);
+}
+
+.closeIcon {
+   background-image: url(src/test_script/images/Icons/Close.png);
+}
+
+.viewIcon {
+   background-image: url(../images/Icons/View.png);
+}
+.aiTestIcon {
+   background-image: url(src/test_script/images/Icons/ATest.png);
+}
+
+.propertiesIcon {
+   background-image: url(src/test_script/images/Icons/Properties.png);
+}
+
+.runIcon {
+   background-image: url(src/test_script/images/Icons/Run.png);
+}
+
+.undoIcon {
+   background-image: url(src/test_script/images/Icons/Undo.png);
+}
+.zlkIcon{
+   background-image: url(src/test_script/images/ZLK1.png);
+}
+
+.redoIcon {
+   background-image: url(src/test_script/images/Icons/Redo.png);
+}
+.loadAnnoIcon {
+   background-image: url(src/test_script/images/Icons/LoadAnno.png);
+}
+
+.selectAllTextIcon {
+   background-image: url(../images/Icons/SelectAllText.png);
+}
+
+.selectAllAnnotationsIcon {
+   background-image: url(../images/Icons/SelectAllAnnotations.png);
+}
+
+.findTextIcon {
+   background-image: url(../images/Icons/FindText.png);
+}
+
+.clearSelectionIcon {
+   background-image: url(../images/Icons/ClearSelection.png);
+}
+
+.copyTextIcon {
+   background-image: url(../images/Icons/CopyText.png);
+}
+
+.selectAreaIcon {
+   background-image: url(../images/Icons/SelectAreaMode.png);
+}
+
+.panZoomIcon {
+   background-image: url(src/test_script/images/Icons/PanZoomMode.png);
+}
+
+.magnifyGlassIcon {
+   background-image: url(src/test_script/images/Icons/MagnifyGlassMode.png);
+}
+
+.panIcon {
+   background-image: url(../images/Icons/PanMode.png);
+}
+
+.zoomIcon {
+   background-image: url(src/test_script/images/Icons/Zoom.png);
+}
+.playIcon {
+   background-image: url(src/test_script/images/Icons/Play.png);
+}
+.stopIcon {
+   background-image: url(src/test_script/images/Icons/Stop.png);
+}
+.LevelsIcon {
+   background-image: url(src/test_script/images/Icons/Levels.png);
+}
+.zoomToIcon {
+   background-image: url(../images/Icons/ZoomToMode.png);
+}
+
+.selectTextIcon {
+   background-image: url(../images/Icons/SelectTextMode.png);
+}
+
+.autoPanIcon {
+   background-image: url(../images/Icons/AutoPanMode.png);
+}
+.invertIcon {
+   background-image: url(src/test_script/images/Icons/Invert.png);
+}
+.exportImgIcon{
+   background-image: url(src/test_script/images/Icons/ExportImage.png);
+}
+.scrollLeftIcon{
+   background-image: url(src/test_script/images/Icons/ScrollLeft.png);
+}
+.scrollRightIcon{
+   background-image: url(src/test_script/images/Icons/ScrollRight.png);
+}
+.hflipIcon {
+   background-image: url(src/test_script/images/Icons/Hflip.ico);
+}
+.vflipIcon {
+   background-image: url(src/test_script/images/Icons/Vflip.png);
+}
+.panIcon {
+   background-image: url(src/test_script/images/Icons/Pan.png);
+}
+.magnifyIcon {
+   background-image: url(src/test_script/images/Icons/Magnify.png);
+}
+.ctrIcon {
+   background-image: url(src/test_script/images/Icons/CTR.png);
+}
+.infoSwitchIcon {
+   background-image: url(src/test_script/images/Icons/InfoSwitch.png);
+}
+.arrowAnnotateIcon {
+   background-image: url(src/test_script/images/Icons/ArrowAnnotate.png);
+}
+
+.inertiaScrollIcon {
+   background-image: url(../images/Icons/InertiaScroll.png);
+}
+
+.fitIcon {
+   background-image: url(../images/Icons/Fit.png);
+}
+
+.actualSizeIcon {
+   background-image: url(src/test_script/images/Icons/ActualSize.png);
+}
+
+.actualPageSizeIcon {
+   background-image: url(../images/Icons/Document.png);
+}
+
+.page-FitIcon {
+   background-image: url(../images/Icons/FitPage.png);
+}
+
+.fitWidthIcon {
+   background-image: url(../images/Icons/FitWidth.png);
+}
+
+.svgViewIcon {
+   background-image: url(../images/Icons/ViewAsSvg.png);
+}
+
+.imageViewIcon {
+   background-image: url(../images/Icons/ViewAsImage.png);
+}
+
+.thumbnailsIcon {
+   background-image: url(../images/Icons/Thumbnails.png);
+}
+
+.bookmarksIcon {
+   background-image: url(../images/Icons/Bookmarks.png);
+}
+
+.annotationsIcon {
+   background-image: url(../images/Icons/Annotations.png);
+}
+
+.firstPageIcon {
+   background-image: url(../images/Icons/FirstPage.png);
+}
+
+.previousIcon {
+   background-image: url(../images/Icons/PreviousPage.png);
+}
+
+.nextIcon {
+   background-image: url(../images/Icons/NextPage.png);
+}
+
+.lastPageIcon {
+   background-image: url(../images/Icons/LastPage.png);
+}
+
+.singlePageExportTextIcon {
+   background-image: url(../images/Icons/SinglePageExportText.png);
+}
+
+.multiPagesExportTextIcon {
+   background-image: url(src/test_script/images/Icons/MultiPagesExportText.png);
+}
+
+.barcodeIcon {
+   background-image: url(../images/Icons/Barcode.png);
+}
+
+.singleLayoutIcon {
+   background-image: url(../images/Icons/Document.png);
+}
+
+.doubleLayoutIcon {
+   background-image: url(../images/Icons/DoubleLayout.png);
+}
+
+.verticalLayoutIcon {
+   background-image: url(../images/Icons/VerticalLayout.png);
+}
+
+.horizontalLayoutIcon {
+   background-image: url(../images/Icons/HorizontalLayout.png);
+}
+
+.zoomInIcon {
+   background-image: url(src/test_script/images/Icons/ZoomIn.png);
+}
+
+.zoomOutIcon {
+   background-image: url(src/test_script/images/Icons/ZoomOut.png);
+}
+
+.flipIcon {
+   background-image: url(../images/Icons/Flip.png);
+}
+
+.reverseIcon {
+   background-image: url(../images/Icons/Reverse.png);
+}
+
+.rotateCounterClockwiseIcon {
+   background-image: url(src/test_script/images/Icons/CounterClockwise.png);
+}
+
+.rotateClockwiseIcon {
+   background-image: url(src/test_script/images/Icons/Clockwise.png);
+}
+
+.interpolationIcon {
+   background-image: url(../images/Icons/Interpolation.png);
+}
+
+.settingsIcon {
+   background-image: url(../images/Icons/Settings.png);
+}
+
+.helpIcon {
+   background-image: url(src/test_script/images/Icons/Help.png);
+}
+
+.documentIcon {
+   background-image: url(../images/Icons/Document.png);
+}
+
+.userNameIcon {
+   background-image: url(../images/Icons/UserName.png);
+}
+
+.showTextIndicatorsIcon {
+   background-image: url(../images/Icons/ShowTextIndicators.png);
+}
+
+.showLinksIcon {
+   background-image: url(../images/Icons/ShowLinks.png);
+}
+
+.selectIcon {
+   background-image: url(src/test_script/images/Icons/Hand.png);
+}
+
+.lineIcon {
+   background-image: url(src/test_script/images/Icons/Line.png);
+}
+
+.rectangleIcon {
+   background-image: url(src/test_script/images/Icons/Rectangle.png);
+}
+
+.ellipseIcon {
+   background-image: url(src/test_script/images/Icons/Circle.png);
+}
+
+.polylineIcon {
+   background-image: url(src/test_script/images/Icons/Polyline.png);
+}
+
+.polygonIcon {
+   background-image: url(src/test_script/images/Icons/Polygon.png);
+}
+
+.curveIcon {
+   background-image: url(src/test_script/images/Icons/SCurve.png);
+}
+
+.closedCurveIcon {
+   background-image: url(src/test_script/images/Icons/BSpline.png);
+}
+.colorMapIcom{
+   background-image:url(src/test_script/images/Icons/ColorMap.png);
+}
+.referenceLineIcon{
+   background-image: url(src/test_script/images/Icons/ReferenceLine.png);
+}
+
+.pointerIcon {
+   background-image: url(src/test_script/images/Icons/Pointer.png);
+}
+
+.freehandIcon {
+   background-image: url(src/test_script/images/Icons/FreeHand.png);
+}
+.freehandAnnoIcon {
+   background-image: url(src/test_script/images/Icons/FreeHand.png);
+}
+.hiliteIcon {
+   background-image: url(src/test_script/images/Icons/Highlight.png);
+}
+
+.textIcon {
+   background-image: url(src/test_script/images/Icons/A.png);
+}
+
+.textPointerIcon {
+   background-image: url(src/test_script/images/Icons/AArrow.png);
+}
+
+.noteIcon {
+   background-image: url(src/test_script/images/Icons/Note.png);
+}
+
+.stampIcon {
+   background-image: url(src/test_script/images/Icons/Image.png);
+}
+
+.rubberStampIcon {
+   background-image: url(src/test_script/images/Icons/Stamp.png);
+}
+
+.hotspotIcon {
+   background-image: url(src/test_script/images/Icons/H.png);
+}
+
+.freehandHotspotIcon {
+   background-image: url(src/test_script/images/Icons/HSquiggles.png);
+}
+
+.pointIcon {
+   background-image: url(src/test_script/images/Icons/RoundX.png);
+}
+
+.redactionIcon {
+   background-image: url(src/test_script/images/Icons/Redact.png);
+}
+
+.rulerIcon {
+   background-image: url(src/test_script/images/Icons/Ruler.png);
+}
+
+.polyRulerIcon {
+   background-image: url(src/test_script/images/Icons/90DegreeRuler.png);
+}
+
+.protractorIcon {
+   background-image: url(src/test_script/images/Icons/Protractor.png);
+}
+
+.crossProductIcon {
+   background-image: url(src/test_script/images/Icons/Intersect.png);
+}
+
+.textRollupIcon {
+   background-image: url(src/test_script/images/Icons/Pin.png);
+}
+
+.audioIcon {
+   background-image: url(src/test_script/images/Icons/Sound.png);
+}
+
+.videoIcon {
+   background-image: url(src/test_script/images/Icons/Video.png);
+}
+
+.triangleIcon {
+   background-image: url(src/test_script/images/Icons/Triangle.png);
+}
+
+.richTextIcon {
+   background-image: url(src/test_script/images/Icons/RichText.png);
+}
+
+.butnAnnotationIcon {
+   background-image: url(src/test_script/images/Icons/Burn.png);
+}
+
+.lockIcon {
+   background-image: url(src/test_script/images/Icons/Lock.png);
+}
+
+.unlockIcon {
+   background-image: url(src/test_script/images/Icons/Unlock.png);
+}
+
+.textHiliteIcon {
+   background-image: url(../images/Icons/THighlight.png);
+}
+
+.textStrikeoutIcon {
+   background-image: url(../images/Icons/Strikethrough.png);
+}
+
+.textUnderlineIcon {
+   background-image: url(../images/Icons/Underline.png);
+}
+
+.textRedactionIcon {
+   background-image: url(../images/Icons/TRedact.png);
+}
+
+.stickyNoteIcon {
+   background-image: url(../images/Icons/StickyNotes.png);
+}
+
+.applyDecryptorIcon {
+   background-image: url(src/test_script/images/Icons/ApplyDecryptor.png);
+}
+
+.applyEncryptorIcon {
+   background-image: url(src/test_script/images/Icons/ApplyEncryptor.png);
+}
+
+.restoreRedactIcon {
+   background-image: url(src/test_script/images/Icons/RestoreRedact.png);
+}
+
+.realizeRedactIcon {
+   background-image: url(src/test_script/images/Icons/RealizeRedact.png);
+}
+
+.runModeIcon {
+   background-image: url(src/test_script/images/Icons/Run.png);
+}
+
+.designModeIcon {
+   background-image: url(src/test_script/images/Icons/Solid.png);
+}
+
+.renderModeIcon {
+   background-image: url(../images/Icons/RenderMode.png);
+}
+
+.renderModeSettingsIcon {
+   background-image: url(../images/Icons/RenderModeSettings.png);
+}
+
+.bringToFrontIcon {
+   background-image: url(../images/Icons/ToFront.png);
+}
+
+.sendToBackIcon {
+   background-image: url(../images/Icons/ToBack.png);
+}
+
+.bringToFirstIcon {
+   background-image: url(../images/Icons/ToFirst.png);
+}
+
+.sendToLastIcon {
+   background-image: url(../images/Icons/ToLast.png);
+}
+
+.groupIcon {
+   background-image: url(../images/Icons/Group.png);
+}
+
+.ungroupIcon {
+   background-image: url(../images/Icons/Ungroup.png);
+}
+
+.resetRotatePointIcon {
+   background-image: url(../images/Icons/ResetRotatePoint.png);
+}
+
+.rotateThumbIcon {
+   background-image: url(../images/Icons/RotateThumb.png);
+}
+
+.renderOnThumbnailsIcon {
+   background-image: url(../images/Icons/RenderAnnOnThumbnails.png);
+}
+
+.deselectOnDown-MouseIcon {
+   background-image: url(../images/Icons/DeselectOnDown-Mouse.png);
+}
+
+.deselectOnDown-TouchIcon {
+   background-image: url(../images/Icons/DeselectOnDown-Touch.png);
+}
+
+.rubberbandSelect-MouseIcon {
+   background-image: url(../images/Icons/SelectAllAnnotations.png);
+}
+
+.rubberbandSelect-TouchIcon {
+   background-image: url(../images/Icons/SelectAllAnnotations.png);
+}
+
+.twoParallelIcon {
+   background-image: url(../images/Icons/ParallelLines.png);
+}
+
+.fourParallelIcon {
+   background-image: url(../images/Icons/FourLines.png);
+}
+
+.midLinesIcon {
+   background-image: url(../images/Icons/Midline.png);
+}
+
+.snapLinesIcon {
+   background-image: url(../images/Icons/Snap.png);
+}
+
+.intersectionLinesIcon {
+   background-image: url(src/test_script/images/Icons/Intersect.png);
+}
+
+.cobbAngleIcon {
+   background-image: url(../images/Icons/CobbAngle.png);
+}
+
+.norbergIcon {
+   background-image: url(../images/Icons/Norberg.png);
+}
+
+.firstPage-sm-Icon {
+   background-image: url(../images/Icons/FirstPage-Small.png);
+}
+
+.previousPage-sm-Icon {
+   background-image: url(../images/Icons/PreviousPage-Small.png);
+}
+
+.nextPage-Small-sm-Icon {
+   background-image: url(../images/Icons/NextPage-Small.png);
+}
+
+.lastPage-sm-Icon {
+   background-image: url(../images/Icons/LastPage-Small.png);
+}
+
+.rotateCounterClockwiseIcon-sm-Icon {
+   background-image: url(../images/Icons/CounterClockwise-Small.png);
+}
+
+.rotateClockwiseIcon-sm-Icon {
+   background-image: url(../images/Icons/Clockwise-Small.png);
+}
+
+.zoomIn-sm-Icon {
+   background-image: url(../images/Icons/ZoomIn-Small.png);
+}
+
+.zoomOut-sm-Icon {
+   background-image: url(../images/Icons/ZoomOut-Small.png);
+}
+
+.reload-sm-Icon {
+   background-image: url(../images/Icons/Reload-Small.png);
+}
+
+
+.find-xs-Icon {
+   background-image: url(../images/Icons/Find-XSmall.png);
+}
+
+.next-xs-Icon {
+   background-image: url(../images/Icons/NextPage-XSmall.png);
+}
+
+.previous-xs-Icon {
+   background-image: url(../images/Icons/PreviousPage-XSmall.png);
+}
+
+.documentAnnotationsIcon {
+   background-image: url(src/test_script/images/Icons/DocumentAnnotations.png);
+}
+
+.medicalAnnotationIcon {
+   background-image: url(src/test_script/images/Icons/MedicalAnnotation.png);
+}
+
+.objectsAlignmentOptionsIcon {
+   background-image: url(src/test_script/images/Icons/Center-Align.png);
+}
+.zoomInIcon{
+	background-image: url(src/test_script/images/Icons/ZoomIn.png);
+}
+.zoomOutIcon{
+	background-image: url(src/test_script/images/Icons/ZoomOut.png);
+}
+.actualSizeIcon{
+	background-image:url(src/test_script/images/Icons/ActualSize.png);
+}
+.rotateCounterClockwiseIcon{
+	background-image:url(src/test_script/images/Icons/CounterClockwise.png);
+}
+.rotateClockwiseIcon{
+	background-image:url(src/test_script/images/Icons/Clockwise.png);
+}
+.alignToLeft {
+   background-image: url(../images/Icons/Left-Align.png);
+}
+
+.alignToCenter {
+   background-image: url(src/test_script/images/Icons/Center-Align.png);
+}
+
+.alignToRight {
+   background-image: url(../images/Icons/Right-Align.png);
+}
+
+.alignToTop {
+   background-image: url(../images/Icons/Top-Align.png);
+}
+
+.alignToMiddle {
+   background-image: url(../images/Icons/Middle-Align.png);
+}
+
+.alignToBottom {
+   background-image: url(../images/Icons/Bottom-Align.png);
+}
+
+.makeSameWidth {
+   background-image: url(../images/Icons/Make-Same-Width.png);
+}
+
+.makeSameHeight {
+   background-image: url(../images/Icons/Make-Same-Height.png);
+}
+
+.makeSameSize {
+   background-image: url(../images/Icons/Make-Same-Size.png);
+}
+
+.scan {
+   background-image: url(../images/Icons/Scan.png);
+}
+
+.scanSelect {
+   background-image: url(../images/Icons/ScanSelect.png);
+}
+
+.print {
+   background-image: url(../images/Icons/Print.png);
+}

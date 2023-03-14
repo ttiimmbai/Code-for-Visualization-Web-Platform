@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="simpleitk-2.1.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../SimpleITK-2.1.1-Java-win64/simpleitk-2.1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../SimpleITK-2.1.1-Java-win64/simpleitk-source-2.1.1.jar!/" />
+    </SOURCES>
+  </library>
+</component>
